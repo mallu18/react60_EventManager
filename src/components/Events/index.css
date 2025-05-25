@@ -9,6 +9,7 @@
 .events-list {
   padding: 30px;
   background-color: #64748b;
+  background-size: 100vh;
   color: white;
   font-family: Roboto;
   min-width: 70%;
