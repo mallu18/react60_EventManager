@@ -1,0 +1,72 @@
+/* Write your CSS here */
+
+.registration-details-container {
+  padding: 24px;
+  text-align: center;
+  background-color: #f1f5f9;
+  border-radius: 8px;
+  margin-top: 16px;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.status-image {
+  width: 300px;
+  max-width: 100%;
+  margin-bottom: 16px;
+}
+
+.register-button {
+  background-color: #0967d2;
+  color: #ffffff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.register-button:hover {
+  background-color: #0550ae;
+}
+
+.yet-to-register,
+.registered,
+.registrations-closed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.no-active-event {
+  font-size: 16px;
+  color: #475569;
+}
+
+.view-container {
+  max-width: 40%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.registration-image {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-self: center;
+}
+
+.initial-text {
+  margin: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}

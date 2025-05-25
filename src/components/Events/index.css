@@ -1,0 +1,23 @@
+/* Write your CSS here */
+/* Events/index.css */
+.events-container {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+}
+
+.events-list {
+  padding: 30px;
+  background-color: #64748b;
+  color: white;
+  font-family: Roboto;
+  min-width: 70%;
+  max-width: 70%;
+}
+
+.event-items-container {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  background-color: transparent;
+}
